@@ -11,8 +11,7 @@ for i in fib_list:
 	if i % 2 == 0:
 		even_list.append(i)
 
-b = sum(even_list)
-print b
+print sum(even_list)
 
 
 

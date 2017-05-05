@@ -1,13 +1,21 @@
 # factors = []
 # prime_factors = []
 
-# for i in range(1, 13195):
+# for i in range(2, 13195):
 # 	if (13195 % i == 0):
 # 		factors.append(i)
- 
-# # for j in range(len(factors) - 1):
-# # 	if factors[j] % j == 0:
-# # 		prime_factors.append(j)
+
+
+# for j in factors:
+# 	for k in range(2, j):
+# 		if j % k == 0:
+# 			factors.remove(j)
+
+
+
+# print factors
+# print prime_factors
+
 
 # print factors
 
@@ -23,3 +31,4 @@ def prime_factors(n):
 	print max(factors)
 
 prime_factors(600851475143)
+
